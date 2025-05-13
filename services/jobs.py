@@ -7,7 +7,7 @@ import numpy as np
 
 from models.models import ResearchJobRequest, SubcontractorProfile
 
-DB_FILE = os.getenv("DB_FILE", "jobs.json")
+DB_FILE = os.getenv("DB_FILE", "database.json")
 
 class EnhancedJSONEncoder(json.JSONEncoder):
     def default(self, obj):
